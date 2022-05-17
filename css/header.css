@@ -17,7 +17,7 @@ header nav ul {
   margin: 40px;
   display: flex;
   flex-wrap: wrap;
-  place-content:start center;
+  place-content: start center;
   gap: 10px;
 }
 
@@ -35,7 +35,7 @@ header nav ul li {
 
 span {
   font-size: 19px;
-  display:none;
+  display: none;
 
 }
 
@@ -56,12 +56,13 @@ span {
   }
 
 
- header nav ul li {
-    padding:20px;
+  header nav ul li {
+    padding: 20px;
   }
+
   span {
     font-size: 30px;
-    display:block;
+    display: block;
   }
 
 
@@ -70,7 +71,7 @@ span {
 @media (max-width:600px) {
 
   header {
-    padding:20px 5px;
+    padding: 20px 5px;
     place-content: center space-evenly;
   }
 
@@ -81,20 +82,21 @@ span {
   header nav {
     order: 3;
     display: none;
-    padding:0px 0px;
+    padding: 0px 0px;
   }
 
 
- header nav ul li {
-   font-size:20px;
-    padding:20px 0px;
-    width:100%;
-    background-color:var(--cor-03);
-    color:var(--cor-02);
+  header nav ul li {
+    font-size: 20px;
+    padding: 20px 0px;
+    width: 100%;
+    background-color: var(--cor-03);
+    color: var(--cor-02);
   }
+
   span {
     font-size: 30px;
-    display:block;
-    height:30px;
+    display: block;
+    height: 30px;
   }
 }
